@@ -189,7 +189,7 @@ module.exports = function (eleventyConfig) {
 
     // Watch targets for changes
     eleventyConfig.addWatchTarget("./plugins/**/*.{ts,js}");
-    eleventyConfig.addWatchTarget("./_components/**/*.{tsx,jsx}");
+    eleventyConfig.addWatchTarget("./components/**/*.{tsx,jsx}");
 
     // Return Eleventy configuration
     return {

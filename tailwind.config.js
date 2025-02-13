@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{njk,md}",
-    "./_components/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
     "./plugins/**/*.{js,ts}",
     "./src/**/*.svg",
   ],
